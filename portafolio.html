@@ -5,41 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
+    <header class="bg-dark text-white text-center py-4">
         <h1>Mi Portafolio</h1>
     </header>
-    <main>
+    <main class="container my-5">
         <section class="projectos">
-            <table>
-                <tr>
-                    <th>Proyecto 1</th>
-                    <td><img src="./assets/img/primer desafio.png" alt="Imagen del Proyecto 1"></td>
-                </tr>
-                <tr>
-                    <th>Proyecto 2</th>
-                    <td><img src="./assets/img/segundo desafio.png" alt="Imagen del Proyecto 2"></td>
-                </tr>
-                <tr>
-                    <th>Proyecto 3</th>
-                    <td><img src="./assets/img/tercer desafio.png" alt="Imagen del Proyecto 3"></td>
-                </tr>
-                <tr>
-                    <th>Proyecto 4</th>
-                    <td><img src="./assets/img/cuarto desafio.png" alt="Imagen del Proyecto 4"></td>
-                </tr>
+            <h2 class="text-center mb-4">Mis Proyectos</h2>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Proyecto</th>
+                        <th>Imagen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CV</td>
+                        <td><img src="./assets/img/primer desafio.png" alt="Imagen del Proyecto 1" class="img-fluid"></td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td><img src="./assets/img/segundo desafio.png" alt="Imagen del Proyecto 2" class="img-fluid"></td>
+                    </tr>
+                    <tr>
+                        <td>Flex</td>
+                        <td><img src="./assets/img/tercer desafio.png" alt="Imagen del Proyecto 3" class="img-fluid"></td>
+                    </tr>
+                    <tr>
+                        <td>Bootstrap</td>
+                        <td><img src="./assets/img/cuarto desafio.png" alt="Imagen del Proyecto 4" class="img-fluid"></td>
+                    </tr>
+                </tbody>
             </table>
         </section>
-        <nav>
-            <a href="./index.html" class="back-button">Volver al inicio</a>
+        <nav class="text-center mt-4">
+            <a href="./index.html" class="btn btn-primary">Volver al inicio</a>
         </nav>
     </main>
-    <footer>
+    <footer class="bg-dark text-white text-center py-3">
         <p>2025 - Mi Portafolio</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

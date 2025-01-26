@@ -84,25 +84,11 @@ footer .social-icons a {
 }
 
 footer .social-icons a:hover {
-    color: lightskyblue;
+    color: lightblue;
 }
 
 footer p {
     font-size: 0.9rem;
     color: gray;
     margin-top: 10px;
-}
-
-.btn {
-    display: inline-block;
-    background-color: lightskyblue;
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: lightskyblue;
 }

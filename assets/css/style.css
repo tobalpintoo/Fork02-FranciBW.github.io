@@ -92,3 +92,9 @@ footer p {
     color: gray;
     margin-top: 10px;
 }
+
+
+.navbar-nav a:hover {
+    color: aqua;
+}
+
